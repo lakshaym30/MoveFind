@@ -1,0 +1,17 @@
+#gallery_header{
+    display: grid;
+    grid-template-columns: 7.5vw 80vw;
+    grid-template-rows: 80vh;
+    grid-column-gap: 5vw;
+    
+}
+#genres {
+    display: flex;
+    flex-direction: column;
+}
+#trending {
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw 15vw;
+    grid-template-rows: 40vh 40vh 40vh 40vh;
+    grid-column-gap: 2vw;
+}
